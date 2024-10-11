@@ -28,8 +28,7 @@ public class ChessScreenManager extends Game {
     }
 
     public void proofOfConcept() {
-        String stockfishPath = "\"D:\\Programming\\Projects\\3296_Software_Design\\stockfish\\stockfish-windows-x86-64-avx2.exe\"";
-
+        String stockfishPath = "../stockfish/stockfish-windows-x86-64-avx2.exe";
         String fen = "rnbqkbnr/1ppppppp/p7/8/P7/8/1PPPPPPP/RNBQKBNR w KQkq - 0 1";
         String bestMove;
         try {
