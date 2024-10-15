@@ -7,8 +7,12 @@ EXTENSION_PACK="$HOME/documents/VSCode_Extensions/vscjava.vscode-java-pack-0.29.
 mkdir -p "$VSCODE_EXTENSIONS_DIR"
 mkdir -p "$GRADLE_USER_HOME"
 
+echo "Setting up VSCODE_EXTENSIONS_DIR to: $VSCODE_EXTENSIONS_DIR"
+export VSCODE_EXTENSIONS_DIR
+
+
 # Set the environment variable for Gradle user home
-echo "Setting Gradle user home to: $GRADLE_USER_HOME"
+echo "Setting GRADLE_USER_HOME to: $GRADLE_USER_HOME"
 export GRADLE_USER_HOME
 
 # Notify the user of completion
